@@ -1,10 +1,10 @@
 
 
 # Installation
-`yarn add z-process-list`
+`npm install z-process-list`
 
 ## Usage
 
 ```javascript
-await require('z-process-list')() // return process list
+require('z-process-list')().then(res=> { console.log(res) }) // return process list
 ```
