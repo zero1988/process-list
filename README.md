@@ -1,10 +1,10 @@
 
 
 # Installation
-`yarn add process-list`
+`yarn add z-process-list`
 
 ## Usage
 
 ```javascript
-await require('process-list')() // return process list
+await require('z-process-list')() // return process list
 ```
