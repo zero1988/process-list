@@ -4,7 +4,7 @@
   "description": "list processes on windows or osx",
   "main": "index.js",
   "repository": "https://github.com/zero1988/process-list.git",
-  "author": "PUSHSOFT\\wangwei <wangwei@aio5.com>",
+  "author": "zero1988",
   "license": "MIT",
   "private": false
 }
