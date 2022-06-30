@@ -1,5 +1,5 @@
 {
-  "name": "process-list",
+  "name": "z-process-list",
   "version": "1.0.0",
   "description": "list processes on windows or osx",
   "main": "index.js",
