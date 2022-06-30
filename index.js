@@ -7,7 +7,6 @@ module.exports = async function () {
     let result = []
     if (process.platform === 'win32') {
         const { stdout } = await execFile('tasklist', ['/fo', 'CSV'])
-        console.log(stdout)
         result = stdout.split('\n')
             .filter(line => !!line.trim()) // 过滤空行
             .map((line) => {
